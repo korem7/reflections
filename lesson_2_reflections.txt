@@ -1,24 +1,40 @@
 What happens when you initialize a repository? Why do you need to do it?
-	
-	It is the first command for creating a Git project, initialize a new empty repository
-	It also can convert an existing project to a Git project.
+
+It is the first command for creating a Git project, initialize a new empty repository
+It also can convert an existing project to a Git project.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-	
-	It is easy to commit more than one file at a time.
-    We can see what we're about to commit before commit.
+
+         It is easy to commit more than one file at a time.
+         we can see what we're about to commit before commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+         we can compare working directory and staging area / staging area and commit
+         thus we can be sure commiting small size
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+         It helps to create another version of our project which we are not ready to
+         develop on main version thus we can see the possible changes on another branch.
+         We can always have an active main branch which works on production and we can
+         have an development branch which we can try new things.
+         We can open dev branches to public to get another ones opinion or work                                  
+         collaboratively.
+
 How do the diagrams help you visualize the branch structure?
+
+         It makes easy to understand how branches work
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+         we can use the both features those branches have.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+         Automatic merges can cause unwanted parts of code to be committed to branch
